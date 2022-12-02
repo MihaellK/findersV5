@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.minhabody
+{
+    font-family: 'Inter', sans-serif;
+}
+.cont
+{
+    position:absolute;
+    top: 0; 
+    left: 0;
+    width: 90vw;
+    height: 100vh;
+    background: rgba(8, 87, 134, 0.87);
+    display: flex;
+    flex-direction: column;
+    grid-gap: 75px;
+    z-index: 10;
+    padding-top: 30px;
+}
+
+.cont > p 
+{
+    font-size: 22px;
+    padding: 14px 30px;
+    background: rgba(8, 87, 134, 0.83);
+    border-radius: 20px;
+    color: white;
+<<<<<<< HEAD:src/Aplicação web/Src/Frontend/CSS/mike2.css
+
+}
+
+.outrabody{
+    background: #F3F3F3;;
+}
+
+.logo{
+    width: 97px;
+    height: 39px;
+    left: 253px;
+    padding-left: 200px;
+    justify-content: center;
+}
+
+.objeto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 245px;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 12px;
+    width: 354px;
+    height: 96px;
+    margin: auto;
+    text-align: center;
+}
+
+.input{
+    width: 350px;
+    height: 40px;
+    left: 3px;
+    border-radius: 20px;
+    border: 0;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+header{
+    background-color: #ECF8FF;
+    left: 110px;
+    text-align: center;
+}
+
+h1{
+    margin-right: 40px;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #8B1E04;
+}
+
+.caixinha1{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 220px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha2{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 356px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha3{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 492px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.caixinha4{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 628px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+
+}
+
+.caixinha5{
+    position: absolute;
+    width: 71px;
+    height: 75px;
+    left: 300px;
+    top: 764px;
+    background: rgba(254, 58, 12, 0.38);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    border: 0;
+    background-color: #ECF8FF;
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.cabe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.fim{
+    display: flex;
+
+    height: 70px;
+}
+
+.fundobot{
+    background: #F3F3F3;;
+    border: 0;
+    align-items: center;
+}
+
+.bot2{
+    padding-left: 230px;
+}
+
+.mapa{
+    border: 0;
+    align-items: center;
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 268px;
+    top: 755px;
+    background-color: transparent;
+}
+
+.bank{
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+    padding-right: 35px;
+}
+
+.lupa{
+    position: absolute;
+    height: 33px;
+    border-radius: 0px;
+    border: 0;
+    right: 40px;
+    top: 118px;
+
+}
+
+.botlupa{
+    border: 0;
+}
+
+.botcaixa1{
+    position: absolute;
+    font-size: 32px;
+    border: 0;
+    right: 25px;
+    top: 240px;
+    background: transparent;
+}
+
+.botcaixa2{
+    position: absolute;
+    font-size: 32px;
+    border: 0;
+    right: 25px;
+    top: 377px;
+    background: transparent;
+}
+
+.botcaixa3{
+    position: absolute;
+    font-size: 32px;
+    border: 0;
+    right: 25px;
+    top: 514px;
+    background: transparent;
+}
+
+.botcaixa4{
+    position: absolute;
+    font-size: 32px;
+    border: 0;
+    right: 25px;
+    top: 651px;
+    background: transparent;
+}
+
+.botcaixa5{
+    position: absolute;
+    font-size: 32px;
+    border: 0;
+    right: 25px;
+    top: 788px;
+    background: transparent;
+}
+=======
+}
+>>>>>>> fe980d94a124872c39d27526c5756b7d6b1ba7f6:src/Aplicação web/Src/Frontend/CSS/MenuLateral.css

@@ -1,0 +1,84 @@
+body{
+    background-color: #f1f1f1;
+}
+
+nav{
+    position: absolute;
+    width: 390px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: #ECF8FF;
+    }
+
+.inicio{
+    position: absolute;
+    width: 319.76px;
+    height: 415.04px;
+    left: 35.66px;
+    top: 235.76px;
+    background: rgba(0, 91, 144, 0.7);
+    border-radius: 25px;
+}
+
+.nome{
+    position: absolute;
+    border-radius: 25px;
+    border: 0;
+    text-align: center;
+    width: 253px;
+    height: 54px;
+    left: 38px;
+    top: 90px;
+}
+
+.patrimonio{
+    position: absolute;
+    border-radius: 25px;
+    border: 0;
+    text-align: center;
+    width: 253px;
+    height: 54px;
+    left: 38px;
+    top: 190px;
+}
+    
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    top: 276px;
+    margin-top: 26px;
+}
+
+.adicionar{
+    position: absolute;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border: #00BAE7;
+    width: 137px;
+    height: 47px;
+    background: #00BAE7;
+    border-radius: 20px;
+    left: 92px;
+    top: 290px;
+}
+
+
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 120px;
+    top: 13px;
+    
+    background: #ECF8FF;
+}

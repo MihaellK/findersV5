@@ -1,5 +1,5 @@
 body{
-    background-image: url('/Users/thomasbrand/Documents/GitHub/Projeto3/src/Aplicação web/Src/Frontend/Telas IPT/cientista_1.png');
+    background-image: url('../Imagens/cientista_1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

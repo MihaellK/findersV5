@@ -129,6 +129,9 @@ section
     justify-content: center;
 }
 .popup{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    size: 50px;
     background-color: white;
     font-size: larger;
     height: max-content;
@@ -139,11 +142,6 @@ section
     text-align: center;
     justify-content: center;
 
-}
-
-.opcoes{
-    display: flex;
-    justify-content: space-around;
 }
 
 .botsim{

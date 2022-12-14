@@ -6,11 +6,9 @@ function closePopup() {
 }
 const params = new URLSearchParams(window.location.search);
 codigo_patrimonio = params.get("id");
-debugger;
 loadDevice(codigo_patrimonio);
 
 async function loadDevice(codigo_patrimonio) {
-  debugger;
   await $.ajax({
     url: "http://localhost:3001/dispositivos/unique",
     headers: { codigo_patrimonio: codigo_patrimonio },

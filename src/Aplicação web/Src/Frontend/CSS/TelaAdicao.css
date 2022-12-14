@@ -1,5 +1,7 @@
 body{
-    background-color: #f1f1f1;
+    background-image: url(../Imagens/cientista_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav{
@@ -13,8 +15,8 @@ nav{
 
 .inicio{
     position: absolute;
-    width: 319.76px;
-    height: 415.04px;
+    width: 321.76px;
+    height: 450px;
     left: 35.66px;
     top: 235.76px;
     background: rgba(0, 91, 144, 0.7);
@@ -29,7 +31,7 @@ nav{
     width: 253px;
     height: 54px;
     left: 38px;
-    top: 90px;
+    top: 121px;
 }
 
 .patrimonio{
@@ -40,11 +42,11 @@ nav{
     width: 253px;
     height: 54px;
     left: 38px;
-    top: 190px;
+    top: 235px;
 }
     
 h1{
-    font-family: 'Inter';
+    font-family: 'Arial';
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
@@ -52,7 +54,7 @@ h1{
     text-align: center;
     color: white;
     top: 276px;
-    margin-top: 26px;
+    margin-top: 12px;
 }
 
 .adicionar{
@@ -69,7 +71,7 @@ h1{
     background: #00BAE7;
     border-radius: 20px;
     left: 92px;
-    top: 290px;
+    top: 335px;
 }
 
 

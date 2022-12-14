@@ -130,18 +130,12 @@ h2 {
     height: 70px;
 }
 
-.fim {
-    display: flex;
-    justify-content: space-between;
+/* .footer {
     height: 70px;
-}
+    color:rgb(225, 243, 255);
+    position: fixed;
+} */
 
-.fundobot {
-    background: #F3F3F3;
-    ;
-    border: 0;
-    align-items: center;
-}
 #listagem{
     text-align: center;
 }
@@ -176,47 +170,9 @@ h2 {
     border: 0;
 }
 
-.botcaixa1 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 240px;
-    background: transparent;
-}
-
-.botcaixa2 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 377px;
-    background: transparent;
-}
-
-.botcaixa3 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 514px;
-    background: transparent;
-}
-
-.botcaixa4 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 651px;
-    background: transparent;
-}
-
-.botcaixa5 {
-    position: absolute;
-    font-size: 32px;
-    border: 0;
-    right: 25px;
-    top: 788px;
-    background: transparent;
+.foto2
+{
+    padding: 8px;
+    width: 50px;
+    margin-left: 25px;
 }

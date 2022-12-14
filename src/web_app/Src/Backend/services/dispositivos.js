@@ -13,7 +13,8 @@ class Dispositivo {
   async createDispositivo() {
     // Pegando a instancia do db
     const db = await sqlite.open({
-      filename: "./database/dispositivos.db",
+      filename: "../dispositivos.db",
+      // filename: "./database/dispositivos.db",
       driver: sqlite3.Database,
     });
     this.data_hora = "2022-11-23 18:58:27";
@@ -45,7 +46,8 @@ class Dispositivo {
   async listarTodos() {
     // Pegando a instancia do db
     const db = await sqlite.open({
-      filename: "./database/dispositivos.db",
+      filename: "../dispositivos.db",
+      // filename: "./database/dispositivos.db",
       driver: sqlite3.Database,
     });
     // Inserindo as informações no db
@@ -73,7 +75,8 @@ class Dispositivo {
   async listarUnico(codigo_patrimonio) {
     // Pegando a instancia do db
     const db = await sqlite.open({
-      filename: "./database/dispositivos.db",
+      filename: "../dispositivos.db",
+      // filename: "./database/dispositivos.db",
       driver: sqlite3.Database,
     });
 
@@ -103,7 +106,8 @@ class Dispositivo {
   async editarDispositivo(nome, predio, sala, data_hora, codigo_patrimonio) {
     // Pegando a instancia do db
     const db = await sqlite.open({
-      filename: "./database/dispositivos.db",
+      filename: "../dispositivos.db",
+      // filename: "./database/dispositivos.db",
       driver: sqlite3.Database,
     });
 
@@ -159,7 +163,8 @@ class Dispositivo {
 
   async removeDispositivo(codigo_patrimonio) {
     const db = await sqlite.open({
-      filename: "./database/dispositivos.db",
+      filename: "../dispositivos.db",
+      // filename: "./database/dispositivos.db",
       driver: sqlite3.Database,
     });
 
